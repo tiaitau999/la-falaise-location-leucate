@@ -118,7 +118,7 @@ ul { list-style: none; }
 .hero-scroll a:hover { color: var(--color-white); }
 
 /* Hero compact pour pages détail */
-.hero-compact { min-height: 50vh; }
+.hero-compact { min-height: 50vh; padding-top: 100px; }
 .hero-compact .hero-title { font-size: 3rem; }
 .hero-badges { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; animation: fadeInUp 0.8s ease 0.6s both; }
 .badge {
