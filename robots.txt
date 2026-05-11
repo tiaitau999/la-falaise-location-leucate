@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tiaitau999.github.io/la-falaise-location-leucate/sitemap.xml
