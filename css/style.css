@@ -324,6 +324,21 @@ ul { list-style: none; }
 .tarif-direct-card { border: 1.5px solid var(--color-primary); background: rgba(26,107,138,0.03); }
 .tarif-direct-card h3 { color: var(--color-primary); }
 
+/* ====== CONTACT SIMPLE ====== */
+.contact-simple { display: flex; flex-direction: column; align-items: center; gap: 16px; max-width: 480px; margin: 0 auto; }
+.contact-btn {
+  display: flex; align-items: center; gap: 14px; width: 100%;
+  padding: 18px 28px; border-radius: var(--radius-md);
+  font-size: 1rem; font-weight: 500; transition: all var(--transition);
+  text-decoration: none;
+}
+.whatsapp-btn { background: #25D366; color: #fff; }
+.whatsapp-btn:hover { background: #1da851; color: #fff; transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.email-btn { background: var(--color-white); color: var(--color-text); border: 1.5px solid var(--color-border); }
+.email-btn:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.phone-btn { background: var(--color-white); color: var(--color-text); border: 1.5px solid var(--color-border); }
+.phone-btn:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
 /* ====== FORM SUCCESS ====== */
 .form-success { text-align: center; padding: 40px; }
 .form-success svg { color: var(--color-primary); margin-bottom: 16px; }
