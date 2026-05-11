@@ -334,6 +334,8 @@ ul { list-style: none; }
 }
 .whatsapp-btn { background: #25D366; color: #fff; }
 .whatsapp-btn:hover { background: #1da851; color: #fff; transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.sms-btn { background: #25D366; color: #fff; }
+.sms-btn:hover { background: #1da851; color: #fff; transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .email-btn { background: var(--color-white); color: var(--color-text); border: 1.5px solid var(--color-border); }
 .email-btn:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .phone-btn { background: var(--color-white); color: var(--color-text); border: 1.5px solid var(--color-border); }
