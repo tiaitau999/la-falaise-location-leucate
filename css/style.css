@@ -341,6 +341,23 @@ ul { list-style: none; }
 .phone-btn { background: var(--color-white); color: var(--color-text); border: 1.5px solid var(--color-border); }
 .phone-btn:hover { border-color: var(--color-primary); color: var(--color-primary); transform: translateY(-2px); box-shadow: var(--shadow-md); }
 
+/* ====== PROPRIETAIRE ====== */
+.proprietaire-text { max-width: 720px; margin: 0 auto; }
+.proprietaire-text p { font-size: 1.05rem; line-height: 1.8; color: var(--color-text); margin-bottom: 16px; }
+
+/* ====== INFO GRID ====== */
+.info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.info-card {
+  background: var(--color-white); padding: 28px; border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.info-card h3 { font-family: var(--font-heading); font-size: 1.1rem; color: var(--color-primary); margin-bottom: 10px; }
+.info-card p { font-size: 0.9rem; color: var(--color-text-light); line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .info-grid { grid-template-columns: 1fr; }
+}
+
 /* ====== FORM SUCCESS ====== */
 .form-success { text-align: center; padding: 40px; }
 .form-success svg { color: var(--color-primary); margin-bottom: 16px; }
